@@ -1,0 +1,35 @@
+<html>
+<head>
+<script language="JavaScript"> 
+var refreshinterval=5 
+var displaycountdown="yes" 
+var starttime 
+var nowtime 
+var reloadseconds=0 
+var secondssinceloaded=0 
+function starttime() { 
+ 	starttime=new Date() 
+	starttime=starttime.getTime() 
+	countdown() 
+} 
+function countdown() { 
+ 	nowtime= new Date() 
+	nowtime=nowtime.getTime() 
+	secondssinceloaded=(nowtime-starttime)/1000 
+	reloadseconds=Math.round(refreshinterval-secondssinceloaded) 
+	if (refreshinterval>=secondssinceloaded){ 
+		var timer=setTimeout("countdown()",1000) 
+		if (displaycountdown=="yes"){ 
+		 	window.status="Page refreshing in "+reloadseconds+ " seconds" 
+		} 
+	} else { 
+	 	clearTimeout(timer) window.location.reload(true) 
+	} 
+} window.onload=starttime 
+</script>
+</head>
+
+<body>
+</body>
+
+</html>

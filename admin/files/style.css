@@ -1,0 +1,116 @@
+/* CSS Document */
+
+.header{
+	text-align:left;
+	vertical-align:middle;
+	text-indent:15px;
+	font-size:18px;
+	color:#000000;
+	background: url(header.gif) no-repeat center;
+	height:70px;
+	border-bottom:1px solid #000000;
+}
+
+.mini_header{
+	font-size:14px;
+	background: url(footer.gif) no-repeat right;
+	border-bottom:1px solid #000000;
+	color:#000000;
+	padding-left:10px;
+	
+}
+
+.sub_header{
+	font-size:12px;
+	background: url(footer.gif) no-repeat right;
+	border-bottom:1px solid #000000;
+	border-top:1px solid #000000;
+	color:#000000;
+	padding-left:10px;
+}
+
+.footer{
+	background:url(footer.gif) no-repeat top center;
+	height:11px;
+	border-top:1px solid #000000;
+	text-align:center;
+	vertical-align:middle;
+	font-size:11px;
+	color:#000000;
+}
+
+.menu{
+	padding-left:10px;
+	padding-right:5px;
+	padding-top:10px;
+	padding-bottom:10px;
+	border-right: 3px double #000000;
+	vertical-align:top;
+}
+
+.container{
+	border:1px solid #000000;
+}
+
+.content{
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+.textfield{
+	text-indent:5px;
+	border: 1px solid #000000;
+	background-color:#D4C5A4;
+	color:#000000;
+}
+
+.listbox{
+	text-indent:2px;
+	border: 1px solid #000000;
+	background-color:#D4C5A4;
+	color:#000000;
+}
+
+.button{
+	border: 1px solid #000000;
+	background-color:#D4C5A4;
+	color:#000000;
+}
+
+/*				Alternating row colors				*/
+
+.row0{
+	background-color:#DED2B8;
+}
+
+.row1{
+	background-color:#EFE2C6;
+}
+
+/*					Tag classes				*/
+
+body{
+	background-color:#CCCCCC;
+}
+
+a{
+	color:#BB0004;
+	text-decoration:none;
+}
+
+a:hover{
+	color:#990000;
+	font-weight:bold;
+}
+
+table{
+	border: 2px solid #000000;
+	background-color:#FFFFFF;
+}
+
+td{
+	font-size:13px;
+}
+

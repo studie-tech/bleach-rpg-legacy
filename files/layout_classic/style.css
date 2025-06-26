@@ -1,0 +1,167 @@
+/* CSS Document */
+
+input{
+	background-color:#DADADA;
+	border: 1px solid #000000;
+	padding-left:5px;
+	padding-right:5px;
+}
+
+select{
+	background-color:#DADADA;
+	border: 1px solid #000000;
+	padding-left:5px;
+}
+
+textarea{
+	background-color:#DADADA;
+	border: 1px solid #000000;
+	padding:5px;
+}
+
+
+
+
+.menulink{
+	color:#000000;
+	font-size:12px;
+}
+
+.row1{
+	background-color:#999999;
+}
+
+.row2{
+	background-color:#808080;
+}
+
+.subHeader{
+	font-weight:bold;
+	border-top:1px solid #000000;
+	border-bottom:2px solid #000000;
+	background-color:#333333;
+	color:white;
+}
+
+/*
+ *		Layout CSS
+ */
+ 
+ a:link
+{
+	font-family: Verdana;
+	color: #000000;
+	text-decoration: none;	
+}
+
+a:active
+{
+	font-family: Verdana;
+	color: #000000;
+}
+
+a:visited
+{
+	font-family: Verdana;
+	color: #000000;
+text-decoration: none;	
+
+}
+
+a:hover
+{
+	font-family: Verdana;
+	color: #C53628;
+	text-decoration: none;	
+}
+
+hr
+{
+	color: #000000;
+	width: 90%;
+}
+
+
+.table{
+    border: 3px double #000000;
+      
+}
+
+td{
+    font-size:12px;
+    border-width: 0px;
+}
+
+
+.table0
+{
+	border: 3px #FFFFFF;
+}
+
+
+table.content {   
+    border-width: 4px;
+    border-spacing: 0px;
+    border-style: ridge;
+    border-color: #DDDDDD;
+    border-collapse: collapse;
+    background-color: #C0C0C0;
+}
+
+table.subcontent {   
+    border-width: 3px;
+    border-spacing: 0px;
+    border-style: double;
+    border-color: #DDDDDD;
+    border-collapse: collapse;
+    background-color: #C0C0C0;
+}
+
+.td0
+{
+	height: 3px;
+	background-color: #000000;
+}
+
+.td1
+{
+	font-family: Verdana;
+	color: #E7B972;
+	font-weight: bold;
+}
+
+
+.td2{
+	padding-left:5px;
+	padding-right:10px;
+	font-size:12px;
+}
+
+.td2 a:link, a:active
+{
+	font-family: Verdana;
+	color: #000000;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.td2 a:hover
+{
+	font-family: Verdana;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: none;	
+}
+
+.td3{
+    font-size:12px;
+}
+
+
+    
+}
+
+.quote{
+	border:1px solid #000000;
+	background:#E3C490;
+}
